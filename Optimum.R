@@ -8,8 +8,8 @@ var.types <- rep("B", num.players)
 A <- rbind(as.numeric(Final$Position == "QB"), # num QB
            as.numeric(Final$Position == "RB"), # num RB
            as.numeric(Final$Position == "WR"), # num WR
-           as.numeric(Final$Position == "TE"),
-           as.numeric(Final$Position == "D"),
+           as.numeric(Final$Position == "TE"), # num TE
+           as.numeric(Final$Position == "D"), # num D
            Final$Salary)                           # total cost
 
 
