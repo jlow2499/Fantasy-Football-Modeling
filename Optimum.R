@@ -1,4 +1,4 @@
-Final <- read.csv("C:/Users/193344/Desktop/Lineups/Final _ 2015-10-09 .csv", stringsAsFactors=FALSE)
+Final <- read.csv("C:/Users/Jeremiah Lowhorn/Desktop/Lineups/Final _ 2015-10-09 .csv", stringsAsFactors=FALSE)
 
 library("Rglpk")
 library("slam")
